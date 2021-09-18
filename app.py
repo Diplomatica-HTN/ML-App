@@ -7,7 +7,7 @@ from components import summarize, forecast, web_search
 # Set up MultiApp feature (allows for multiple pages)
 app = MultiApp()
 
-st.set_page_config(page_title="Diplomatic ML App", page_icon="⬛", layout='centered', initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Diplomatica ML App", page_icon="⬛", layout='centered', initial_sidebar_state="collapsed")
 
 st.markdown("""
 # Machine Learning Tools
