@@ -1,0 +1,4 @@
+streamlit==0.82.0
+newspaper3k==0.2.8
+lxml==4.6.3
+nltk==3.6.2
