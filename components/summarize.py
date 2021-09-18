@@ -28,7 +28,8 @@ def change_complexity(summary, range):
     for i in full:
         i = i + '.'
         final += i
-    return final[:-1]
+    final = final.replace('.', '. ')
+    return final[:-2]
 
 def app():
     st.title('NLP Article Summary')
@@ -49,5 +50,5 @@ def app():
         st.write('`Title: `', processed_article.title)
         st.write('`Summary: `', full_summary)
         st.write('`Key Topics: `', processed_article.keywords)
-
+    
         # new_summary = generate_summary(processed_article.text, 2)
