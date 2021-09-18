@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 def app():
-    st.title('Forecast and Analyze Data')
+    st.markdown('## Forecast and Analyze Data')
 
     st.markdown("""
     Visualize social data and extrapolate new information
@@ -29,7 +29,7 @@ def app():
         st.plotly_chart(fig2)
         st.plotly_chart(fig3)
     else:
-        st.write("## 2022 Predicted Metrics")
+        st.write("### 2022 Predicted Metrics")
         st.write("""
         **Linear Regression**
         - GDP (Canada): `$1.5` Trillion

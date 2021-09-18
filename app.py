@@ -2,8 +2,7 @@
 
 import streamlit as st
 from multiapp import MultiApp
-from components import summarize, forecast
-import webbrowser
+from components import summarize, forecast, web_search
 
 # Set up MultiApp feature (allows for multiple pages)
 app = MultiApp()
@@ -23,7 +22,8 @@ st.markdown('<button style="border-color: black; border-radius: 10;" ><a style="
 # st.markdown('[Return to Dashboard](https://diplomatica.vercel.app/dashboard)', unsafe_allow_html=True)
 
 # Other pages
-app.add_app("NLP Article Summary", summarize.app)
+app.add_app("NLP Article Summary via URL", summarize.app)
+app.add_app("NLP Article Summary via Search", web_search.app)
 app.add_app("Forecast and Analyze Data", forecast.app)
 
 # The main app

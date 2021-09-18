@@ -32,7 +32,7 @@ def change_complexity(summary, range):
     return final[:-2]
 
 def app():
-    st.title('NLP Article Summary')
+    st.markdown('## NLP Article Summary via URL')
 
     st.write('Summarize politcal articles to a readable length using our Natural Language Processing System')
 
