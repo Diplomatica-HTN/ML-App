@@ -1,7 +1,13 @@
-from math import ceil
 import streamlit as st
-from newspaper import Article
+import nltk
+nltk.download('punkt')
+
 import time
+
+from math import ceil
+from newspaper import Article
+
+
 # from nlp_model import generate_summary
 
 def fetch_text_data(article):
