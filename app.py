@@ -11,7 +11,7 @@ st.set_page_config(page_title="Diplomatica ML App", page_icon="⬛", layout='cen
 
 st.markdown("""
 # Machine Learning Tools
-Use our custom built Machine Learning Models to ease the educational process and increase efficiency 
+Use our custom built Machine Learning Models to ease the learning process and maximize efficiency
 """)
 
 # if st.button('Return to Dashboard'):
