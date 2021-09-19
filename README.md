@@ -1,5 +1,5 @@
 # ⚙ Machine Learning App
-Models were deployed on `Streamlit` with `Python` and hosted through `Heroku` 
+NLP and Forecasting Models were deployed on `Streamlit` with `Python` and hosted through `Heroku` 
 ## Summarizer-AI: [link](https://diplomatica-nlp.herokuapp.com/)
 Both NLP summarizers were used in this section such that the user can summarize relevant articles by inputting a search term or summarize a specific article by inputting a URL. The search query will output a list of articles and the top 2 will be summarized based on relevancy to the topic. The article’s text will be extracted and sent to the model which will summarize it based on the given complexity. 
 ## Analyzing and Forecasting Data: [link](https://diplomatica-analyze.herokuapp.com/)
