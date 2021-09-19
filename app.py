@@ -10,8 +10,8 @@ app = MultiApp()
 st.set_page_config(page_title="Diplomatica ML App", page_icon="⬛", layout='centered', initial_sidebar_state="collapsed")
 
 st.markdown("""
-# Machine Learning Tools
-Use our custom built Machine Learning Models to ease the learning process and maximize efficiency
+# Diplomatica ML Tools
+Use our Machine Learning systems to aid in the political learning process and maximize efficiency
 """)
 
 # if st.button('Return to Dashboard'):
